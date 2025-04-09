@@ -4,13 +4,6 @@
 - Frontend: React, Mantine UI, WebRTC (PeerJS), Socket.io-client
 - Backend: Express, Socket.io, PeerJS Server
 
-## Project Structure
-talks-talks-video-call/
-├── client/
-├── server/
-├── .gitignore
-└── README.md
-
 ## ⚙️ Setup Instructions
 
 ### Prerequisites
