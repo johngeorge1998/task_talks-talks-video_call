@@ -1,0 +1,40 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@mantine/core": "^7.17.3",
+    "@mantine/hooks": "^7.17.3",
+    "@tabler/icons-react": "^3.31.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.5.0",
+    "socket.io-client": "^4.7.2",
+    "web-streams-polyfill": "^4.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/peerjs": "^0.0.30",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/simple-peer": "^9.11.8",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "peerjs": "^1.5.4",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0"
+  }
+}
